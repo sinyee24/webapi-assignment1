@@ -40,10 +40,25 @@ console.log(api.getAllStaff());
 # Functions
 
 1. addHotelRoom
-    - adding new room including room number and room type
+    - Adding new room including room number and room type.
 
 2. getRoom
-    - get room by room number
+    - Get room by room number.
+
+3. getNumberOfRooms
+    - Get the total amount of rooms.
+
+4. addStaff
+    - Add new staff including name and role.
+
+5. getNumberOfStaffs
+    - Get the total number of staffs.
+
+6. getStaff
+    - Get staff by name.
+
+7. getAllStaff
+    - Get all the saff.
 
 # References
 Provide the references that you have used to support your assignment. 
