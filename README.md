@@ -14,6 +14,8 @@ For some tips in formatting text in readme file, refer to https://docs.github.co
 2. Create a app.js into the folder
 3. Try out the differnet functions with the following codes:
 
+```
+
 const api = require("./webapi-assignment1/LouSinYee_webapi.js");
 
 api.addHotelRoom("123","Standard");
@@ -33,6 +35,7 @@ console.log("The total number of staff is ",api.getNumberOfStaffs());
 console.log(api.getStaff("Jerry"));
 
 console.log(api.getAllStaff());
+```
 
 # Functions
 
