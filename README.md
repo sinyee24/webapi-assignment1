@@ -10,6 +10,8 @@ For some tips in formatting text in readme file, refer to https://docs.github.co
 
 # How to use my node module
 
+Hotel Management
+
 1. Download or Copy the code in LouSinYee_webapi.js
 2. Create a app.js into the folder
 3. Try out the differnet functions with the following codes:
