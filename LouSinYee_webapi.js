@@ -15,7 +15,7 @@ module.exports = {
     // Get room by room number
     getRoom(roomNumber) {
         const room = this.hotelrooms.find(room => room.roomNumber === roomNumber);
-        if (room === undefined) {
+        if (!room) {
             return "Room not found.";
         }
         return room;
@@ -35,7 +35,7 @@ module.exports = {
     // Get staff by name
     getStaff(staffname) {
         const staffMember = this.staff.find(staff => staff.staffname === staffname);
-        if (staffMember === undefined) {
+        if (!staffMember) {
             return "Staff member not found.";
         }
         return staffMember;
