@@ -20,8 +20,8 @@ api.addHotelRoom("123","Standard");
 api.addHotelRoom("124","Standard");
 api.addHotelRoom("125","Standard");
 
-console.log(api.getRoom("123"));
-console.log(api.getRoom("126"));
+console.log(api.getRoom("124"));
+console.log(api.getRoom("125"));
 
 console.log("The total number of rooms is ",api.getNumberOfRooms());
 
@@ -30,13 +30,17 @@ api.addStaff("Jerry","Bellboy");
 
 console.log("The total number of staff is ",api.getNumberOfStaffs());
 
-console.log(api.getStaff("Berry"));
+console.log(api.getStaff("Jerry"));
 
 console.log(api.getAllStaff());
 
 # Functions
 
-- addHotelRoom
+1. addHotelRoom
+    - adding new room including room number and room type
+
+2. getRoom
+    - get room by room number
 
 # References
 Provide the references that you have used to support your assignment. 
